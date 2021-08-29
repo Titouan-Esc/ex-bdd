@@ -1,0 +1,7 @@
+header {
+  nav {
+    height: 10vh;
+    @include flex-box(row, space-around, center);
+    background-color: gainsboro;
+  }
+}

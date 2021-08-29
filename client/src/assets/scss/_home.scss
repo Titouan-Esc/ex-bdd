@@ -1,0 +1,58 @@
+.home_page {
+  @include flex-box(column, space-around, center);
+
+  .titre {
+    margin: 20px;
+  }
+
+  .post {
+    width: 50%;
+    @include flex-box(column, space-around, center);
+    background-color: aquamarine;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+    h1 {
+      margin: 10px;
+    }
+
+    p {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .button {
+      width: 100%;
+      @include flex-box(row, space-around, center);
+      margin: 10px;
+
+      .btn1 {
+        width: 5vw;
+        height: 4vh;
+        @include flex-box(row, center, center);
+        background-color: greenyellow;
+        border: 0;
+        border-radius: 5px;
+
+        &:hover {
+          cursor: pointer;
+          color: white;
+        }
+      }
+
+      .btn2 {
+        width: 5vw;
+        height: 4vh;
+        @include flex-box(row, center, center);
+        background-color: crimson;
+        border: 0;
+        border-radius: 5px;
+
+        &:hover {
+          cursor: pointer;
+          color: white;
+        }
+      }
+    }
+  }
+}

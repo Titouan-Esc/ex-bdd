@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 import PostForm from "./pages/PostForm";
 import NavBar from "./components/NavBar";
-
+import "./assets/scss/style.scss";
 
 function App() {
   return (
